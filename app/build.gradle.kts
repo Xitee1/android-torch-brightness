@@ -48,6 +48,11 @@ android {
         }
     }
 
+    androidResources {
+        // Lists the app's languages (values = en, values-de = de) for Android's per-app language setting.
+        generateLocaleConfig = true
+    }
+
     buildFeatures {
         compose = true
         buildConfig = true
