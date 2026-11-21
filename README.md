@@ -23,6 +23,12 @@ flashlight turns off. If adaptive brightness was off, the app does nothing.
 
 The UI is available in English and German and follows the system language.
 
+## Screenshots
+
+| Main screen |
+|---|
+| <img src="docs/screenshots/main.png" alt="Status, setup, brightness adjustment and live sensor values" width="300"> |
+
 ## Setup
 
 1. Install the APK and enable the app.
