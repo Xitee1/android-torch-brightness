@@ -1,5 +1,9 @@
 # Torch Brightness
 
+> [!Warning]
+> This app was vibe coded (written largely with AI assistance) and has not been tested extensively
+> yet. Use it at your own risk.
+
 Keeps the screen brightness sane while the flashlight is on.
 
 Some phones (e.g. the Motorola Edge 60 Pro) also feed a light sensor next to the rear cameras into
@@ -48,3 +52,22 @@ The UI is available in English and German and follows the system language.
 Release signing: locally via `keystore.properties` (not in the repo); in GitHub Actions via the
 secrets `SIGNING_KEYSTORE_BASE64`, `SIGNING_STORE_PASSWORD`, `SIGNING_KEY_ALIAS`, `SIGNING_KEY_PASSWORD`.
 Every push to `main` builds a signed APK as a workflow artifact; a `v*` tag also creates a release.
+
+## License
+
+Torch Brightness is free software licensed under the
+**GNU General Public License, version 3 or later**. See [LICENSE](LICENSE) for
+the full text.
+
+```
+Copyright (C) 2026 Xitee
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+```
