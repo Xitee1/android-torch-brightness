@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Sun (brightness) with a small torch beam -->
+    <path android:fillColor="#FFD54F"
+        android:pathData="M54,42a12,12 0 1,0 0.01,0z" />
+    <path android:strokeColor="#FFD54F" android:strokeWidth="4" android:strokeLineCap="round"
+        android:pathData="M54,30v-6 M54,84v-6 M30,54h-6 M84,54h-6 M37,37l-4,-4 M71,71l4,4 M37,71l-4,4 M71,37l4,-4" />
+</vector>

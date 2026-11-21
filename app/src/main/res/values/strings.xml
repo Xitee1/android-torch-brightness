@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Torch Brightness</string>
+    <string name="notification_channel">Background service</string>
+    <string name="notification_waiting">Waiting for the flashlight</string>
+    <string name="notification_controlling">Flashlight on: brightness follows the front sensor</string>
+    <string name="notification_setup_needed">Setup needed, open the app</string>
+    <string name="status_title">Enabled</string>
+    <string name="status_off">Off</string>
+    <string name="status_starting">Starting …</string>
+    <string name="status_no_permission">Permission \"Modify system settings\" missing</string>
+    <string name="status_no_curve_access">No access to the brightness curve, see setup</string>
+    <string name="status_curve_unsupported">This device does not report its brightness curve in the expected format</string>
+    <string name="status_waiting">Waiting for the flashlight</string>
+    <string name="status_controlling">Flashlight on: brightness follows the front sensor</string>
+    <string name="status_user_override">Flashlight on: brightness changed manually, paused until the flashlight turns off</string>
+    <string name="status_skipped_manual">Flashlight on: adaptive brightness is off, nothing to do</string>
+    <string name="section_setup">Setup</string>
+    <string name="setup_write_settings">Modify system settings</string>
+    <string name="setup_write_settings_missing">Required to change the brightness</string>
+    <string name="setup_granted">Granted</string>
+    <string name="setup_allow">Allow</string>
+    <string name="setup_curve">Brightness curve</string>
+    <string name="setup_curve_dump">Read via the DUMP permission</string>
+    <string name="setup_curve_shizuku">Read via Shizuku</string>
+    <string name="setup_curve_shizuku_missing">Shizuku is running, permission missing. Alternatively grant the DUMP permission once via adb:</string>
+    <string name="setup_curve_none">Grant the DUMP permission once via adb, or start Shizuku:</string>
+    <string name="setup_copy_command">Copy command</string>
+    <string name="setup_curve_read">Curve read at %1$s, %2$d points</string>
+    <string name="section_brightness">Brightness</string>
+    <string name="adjustment">Adjustment: %1$s %%</string>
+    <string name="adjustment_desc">Makes the screen brighter or darker than the system curve while the flashlight is on.</string>
+    <string name="section_live">Live values</string>
+    <string name="live_front">Front light sensor: %1$s lux</string>
+    <string name="live_rear">Rear light sensor: %1$s lux</string>
+    <string name="live_flashlight">Flashlight: %1$s</string>
+    <string name="live_adaptive">Adaptive brightness: %1$s, brightness setting: %2$d</string>
+    <string name="live_target">Target for the current front light: %1$s</string>
+    <string name="live_written">Last value set by the app: %1$d</string>
+    <string name="value_on">on</string>
+    <string name="value_off">off</string>
+    <string name="value_none">–</string>
+    <string name="value_not_available">not available</string>
+    <string name="section_how">How it works</string>
+    <string name="how_text">Some phones, e.g. from Motorola, also use a light sensor next to the rear cameras for adaptive brightness. The flashlight blinds it and the screen jumps to full brightness. While the flashlight is on, this app pauses adaptive brightness and sets the brightness itself from the front sensor only, using your system\'s own brightness curve. When the flashlight turns off, adaptive brightness and your previous setting are restored.</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_channel">Hintergrunddienst</string>
+    <string name="notification_waiting">Wartet auf die Taschenlampe</string>
+    <string name="notification_controlling">Taschenlampe an: Helligkeit folgt dem vorderen Sensor</string>
+    <string name="notification_setup_needed">Einrichtung nötig, App öffnen</string>
+    <string name="status_title">Aktiviert</string>
+    <string name="status_off">Aus</string>
+    <string name="status_starting">Startet …</string>
+    <string name="status_no_permission">Berechtigung „Systemeinstellungen ändern“ fehlt</string>
+    <string name="status_no_curve_access">Kein Zugriff auf die Helligkeitskurve, siehe Einrichtung</string>
+    <string name="status_curve_unsupported">Dieses Gerät liefert seine Helligkeitskurve nicht im erwarteten Format</string>
+    <string name="status_waiting">Wartet auf die Taschenlampe</string>
+    <string name="status_controlling">Taschenlampe an: Helligkeit folgt dem vorderen Sensor</string>
+    <string name="status_user_override">Taschenlampe an: Helligkeit manuell geändert, pausiert bis die Taschenlampe ausgeht</string>
+    <string name="status_skipped_manual">Taschenlampe an: automatische Helligkeit ist aus, nichts zu tun</string>
+    <string name="section_setup">Einrichtung</string>
+    <string name="setup_write_settings">Systemeinstellungen ändern</string>
+    <string name="setup_write_settings_missing">Nötig, um die Helligkeit zu ändern</string>
+    <string name="setup_granted">Erteilt</string>
+    <string name="setup_allow">Erlauben</string>
+    <string name="setup_curve">Helligkeitskurve</string>
+    <string name="setup_curve_dump">Wird über die DUMP-Berechtigung gelesen</string>
+    <string name="setup_curve_shizuku">Wird über Shizuku gelesen</string>
+    <string name="setup_curve_shizuku_missing">Shizuku läuft, Berechtigung fehlt. Alternativ einmalig die DUMP-Berechtigung per adb erteilen:</string>
+    <string name="setup_curve_none">Einmalig die DUMP-Berechtigung per adb erteilen oder Shizuku starten:</string>
+    <string name="setup_copy_command">Befehl kopieren</string>
+    <string name="setup_curve_read">Kurve gelesen um %1$s, %2$d Punkte</string>
+    <string name="section_brightness">Helligkeit</string>
+    <string name="adjustment">Anpassung: %1$s %%</string>
+    <string name="adjustment_desc">Macht den Bildschirm heller oder dunkler als die Systemkurve, solange die Taschenlampe an ist.</string>
+    <string name="section_live">Live-Werte</string>
+    <string name="live_front">Vorderer Lichtsensor: %1$s lux</string>
+    <string name="live_rear">Hinterer Lichtsensor: %1$s lux</string>
+    <string name="live_flashlight">Taschenlampe: %1$s</string>
+    <string name="live_adaptive">Automatische Helligkeit: %1$s, Helligkeitswert: %2$d</string>
+    <string name="live_target">Zielwert für das aktuelle vordere Licht: %1$s</string>
+    <string name="live_written">Zuletzt von der App gesetzt: %1$d</string>
+    <string name="value_on">an</string>
+    <string name="value_off">aus</string>
+    <string name="value_none">–</string>
+    <string name="value_not_available">nicht vorhanden</string>
+    <string name="section_how">So funktioniert es</string>
+    <string name="how_text">Manche Handys, z. B. von Motorola, nutzen für die automatische Helligkeit auch einen Lichtsensor neben den hinteren Kameras. Die Taschenlampe blendet ihn, und der Bildschirm springt auf volle Helligkeit. Solange die Taschenlampe an ist, pausiert diese App die automatische Helligkeit und setzt die Helligkeit selbst, nur anhand des vorderen Sensors und mit der Helligkeitskurve deines Systems. Geht die Taschenlampe aus, werden die automatische Helligkeit und deine vorherige Einstellung wiederhergestellt.</string>
+</resources>
